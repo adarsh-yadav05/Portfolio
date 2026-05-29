@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags -->
+  <title>Adarsh Yadav | Full Stack & Java Developer Portfolio</title>
+  <meta name="description" content="Professional portfolio of Adarsh Yadav, a Java Full Stack Developer specializing in Java, Spring Boot, React.js, and modern web applications." />
+  <meta name="keywords" content="Adarsh Yadav, Software Engineer, Java Developer, Spring Boot, React, Full Stack Developer, Noida, Portfolio" />
+  <meta name="author" content="Adarsh Yadav" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Adarsh Yadav | Full Stack & Java Developer" />
+  <meta property="og:description" content="Discover Adarsh Yadav's software engineering projects, technical skills, and development expertise in Spring Boot, React, and Java." />
+  
+  <!-- Preconnect Font Connections -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- FontAwesome Icons and Style Sheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="glass-nav" id="main-nav">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" id="logo-link">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Adarsh Yadav</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+      
+      <div class="nav-right-cluster">
+        <ul class="nav-links" id="navigation-drawer">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        
+        <!-- Cyberpunk Theme Switcher Toggle -->
+        <button class="theme-toggle-btn" id="theme-switch" aria-label="Toggle Theme Mode">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <div class="nav-burger" id="burger-menu" aria-label="Toggle Navigation Drawer">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section" id="hero">
+    <div class="hero-content">
+      <span class="hero-tagline">Hello World, I'm</span>
+      <h1 class="hero-title">Adarsh <span class="grad">Yadav</span></h1>
+      
+      <div class="hero-subtitle">
+        <span>Full Stack & Java Developer</span>
+      </div>
+      
+      <p class="hero-desc">
+        Passionate about creating modern web applications with clean UI and powerful backend systems. Skilled in building responsive, scalable, and user-focused digital experiences using modern web technologies and Java-based development.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary" id="hero-work-btn">Explore Work <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact" class="btn btn-secondary" id="hero-contact-btn">Connect <i class="fa-solid fa-paper-plane"></i></a>
+      </div>
+    </div>
+    
+    <a href="#about" class="scroll-down-indicator" id="scroll-arrow" aria-label="Scroll down to About section">
+      <span>Scroll Down</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </header>
+
+  <!-- Main Section Wrapper -->
+  <main class="container">
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+      <div class="section-header">
+        <h2 class="section-title">About <span class="grad">Me</span></h2>
+      </div>
+      
+      <div class="about-grid">
+        <!-- Quick Info Panel Card -->
+        <div class="about-card glass-card" id="about-card-left">
+          <div class="profile-avatar-container">
+            <img class="profile-avatar" src="profile.jpg" alt="Adarsh Yadav">
+          </div>
+          <div class="about-quick-info">
+            <h3>Adarsh Yadav</h3>
+            <p class="role">Full Stack & Java Developer</p>
+            
+            <div class="info-list">
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i> 
+                <span>Noida, India</span>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-envelope"></i> 
+                <a href="mailto:adarshyadav9910@gmail.com" id="about-email-link">adarshyadav9910@gmail.com</a>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-graduation-cap"></i> 
+                <span>B.Tech Student</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Detailed Text Card -->
+        <div class="about-details glass-card" id="about-card-right">
+          <h3>Professional Profile</h3>
+          <p>
+            Frontend Developer with strong skills in HTML, CSS, JavaScript, and React.js, focused on building responsive, user-friendly, and modern web applications. Currently expanding expertise toward Java Full Stack Development with knowledge of Java, Spring Boot, REST APIs, JDBC, and database management. Passionate about creating real-world software solutions, improving problem-solving abilities, and continuously learning modern development technologies and best practices.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="reveal">
+      <div class="section-header">
+        <h2 class="section-title">Technical <span class="grad">Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Programming Languages Card -->
+        <div class="skill-card glass-card" id="skill-card-languages">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Java (Gold Elite)</span>
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            
+          </div>
+        </div>
+
+        <!-- Frontend Card -->
+        <div class="skill-card glass-card" id="skill-card-frontend">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">React.js</span>
+            <span class="tag">Redux Toolkit</span>
+            <span class="tag">CSS Grid / Flexbox</span>
+            <span class="tag">DOM Manipulation</span>
+          </div>
+        </div>
+
+        <!-- Backend Card -->
+        <div class="skill-card glass-card" id="skill-card-backend">
+          <div class="skill-header">
+            <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Spring MVC</span>
+            <span class="tag">RESTful APIs</span>
+            <span class="tag">Microservices</span>
+            <span class="tag">Spring Data JPA</span>
+            <span class="tag">Hibernate ORM</span>
+            <span class="tag">Spring Security</span>
+            <span class="tag">Spring AI</span>
+            <span class="tag">JDBC</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SQLite / Room</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+      <div class="section-header">
+        <h2 class="section-title">Featured <span class="grad">Projects</span></h2>
+      </div>
+
+      <div class="projects-container">
+        <!-- Interactive Category Filters -->
+        <div class="portfolio-filters" id="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+        </div>
+
+        <!-- Projects Cards Grid -->
+        <div class="projects-grid" id="projects-container-grid">
+          
+          <!-- Udhyog Invoice -->
+          <div class="project-card glass-card" data-category="fullstack" data-id="udhyog-invoice">
+            <div class="project-top">
+              <span class="project-top-icon">📊</span>
+              <span class="project-category">Full Stack</span>
+            </div>
+            <h3 class="project-title">Udhyog Invoice</h3>
+            <p class="project-desc">A smart billing and inventory management system featuring automated calculations, invoice compilation, secure API endpoints, and a clean web dashboard.</p>
+            <div class="project-tags">
+              <span class="proj-tag">Spring Boot</span>
+              <span class="proj-tag">React.js</span>
+              <span class="proj-tag">MySQL</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/adarsh-yadav05/Movie-Recommender-System" target="_blank" class="proj-link" aria-label="View Udhyog Invoice code on GitHub">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Movie Recommendation System -->
+          <div class="project-card glass-card" data-category="frontend" data-id="movie-system">
+            <div class="project-top">
+              <span class="project-top-icon">🎬</span>
+              <span class="project-category">Frontend</span>
+            </div>
+            <h3 class="project-title">Movie Recommendation</h3>
+            <p class="project-desc">Cinematic database dashboard querying external TMDB APIs. Supports live trailer embeds, watchlist lists, and category filtering.</p>
+            <div class="project-tags">
+              <span class="proj-tag">HTML5/CSS3</span>
+              <span class="proj-tag">JavaScript</span>
+              <span class="proj-tag">TMDB API</span>
+              <span class="proj-tag">Local Storage</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/adarsh-yadav05/Movie-Recommender-System" target="_blank" class="proj-link" aria-label="View Movie Recommendation System code on GitHub">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Myntra Clone -->
+          <div class="project-card glass-card" data-category="frontend" data-id="myntra-clone">
+            <div class="project-top">
+              <span class="project-top-icon">🛍️</span>
+              <span class="project-category">Frontend</span>
+            </div>
+            <h3 class="project-title">Myntra Clone</h3>
+            <p class="project-desc">Shopping landing interface replicating popular shopping catalogs. Implements detailed filter systems, carts, and order checkout math.</p>
+            <div class="project-tags">
+              <span class="proj-tag">HTML5/CSS3</span>
+              <span class="proj-tag">JavaScript</span>
+              <span class="proj-tag">Flexbox/Grid</span>
+              <span class="proj-tag">Local Storage</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/adarsh-yadav05/Myntra-Clone-Fashion" target="_blank" class="proj-link" aria-label="View Myntra Clone code on GitHub">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Details Modal Window -->
+    <div class="modal" id="project-details-modal">
+      <div class="modal-content">
+        <button class="modal-close-btn" aria-label="Close Project Details Popup">&times;</button>
+        <div class="modal-header">
+          <span class="modal-category">Full Stack</span>
+          <h3 class="modal-title">Udhyog Invoice</h3>
+        </div>
+        <div class="modal-body">
+          <p class="modal-desc">Loading details...</p>
+          <h4>Key Highlights</h4>
+          <ul class="modal-highlights">
+            <li>Loading...</li>
+          </ul>
+          <h4>Technologies Used</h4>
+          <div class="modal-tags">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#" target="_blank" class="proj-link modal-github"><i class="fa-brands fa-github"></i> View GitHub Repository</a>
+          <a href="#" target="_blank" class="proj-link live modal-demo"><i class="fa-solid fa-rocket"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+      <div class="section-header">
+        <h2 class="section-title">Get In <span class="grad">Touch</span></h2>
+      </div>
+
+      <div class="contact-info-card glass-card contact-centered-card" id="contact-details-panel">
+        <div class="contact-info-header">
+          <h3>Let's Collaborate</h3>
+          <p>I'm currently looking for full-time opportunities, internship roles, or freelance projects. Drop me a line!</p>
+        </div>
+
+        <div class="contact-details-list">
+          
+          <!-- Email Address Detail -->
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-detail-content">
+              <label>Email Address</label>
+              <div>
+                <a href="mailto:adarshyadav9910@gmail.com" id="email-address">adarshyadav9910@gmail.com</a>
+                <button class="copy-email-btn" aria-label="Copy email address to clipboard" id="copy-email-trigger">
+                  <i class="fa-solid fa-copy"></i>
+                  <span class="tooltip">Copy to clipboard</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- GitHub Profile Detail -->
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fa-brands fa-github"></i></div>
+            <div class="contact-detail-content">
+              <label>GitHub</label>
+              <a href="https://github.com/adarsh-yadav05" target="_blank" id="github-link">adarsh-yadav05</a>
+            </div>
+          </div>
+
+          <!-- LinkedIn Profile Detail -->
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="contact-detail-content">
+              <label>LinkedIn</label>
+              <a href="https://linkedin.com/in/adarsh-yadav-05" target="_blank" id="linkedin-link">adarsh-yadav-05</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Social Shortcuts Links -->
+        <div class="contact-socials">
+          <a href="https://github.com/adarsh-yadav05" target="_blank" class="social-circle-btn github" title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/adarsh-yadav-05" target="_blank" class="social-circle-btn linkedin" title="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <a href="#" class="footer-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">Adarsh Yadav</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+      
+      <p class="footer-text">
+        &copy; 2026 Adarsh Yadav. 
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts Code -->
+  <script src="script.js"></script>
+</body>
+</html>
